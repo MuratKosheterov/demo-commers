@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logo {
+    padding: 5px 10px;
+    background-color: dimgrey;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+span {
+    color: hotpink;
+}
+
+.App {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #ccc;
+    border-radius: 12px;
+}
+
+.Navbar {
+    background-color: #ccc;
+    width: 1440px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.shop {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;   
+}
+
+.product-img {
+    width: 130px;
+    height: 170px;
+}
+
+.Home {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.Product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: black;
+    background-color: white;
+    margin: 15px auto;
+}
+
+.btn-add {
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background-color: grey;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    border-radius: 12px ;
+    background-color: burlywood;
+}
+
+.sidebar-close {
+    position: absolute;
+    top: 0;
+    right: -500px;
+    width: 350px;
+    border-radius: 12px ;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.sidebar-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.sidebar-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: crimson;
+}
+
+.sidebar-reset {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+
+.sidebar-center {
+    padding: 15px;
+    background-color: #ccc;
+}
+
+.Close {
+    cursor: pointer;
+}
+
+.Cart-image {
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter > p {
+    padding: 5px;
+    /* margin: 5px; */
+}
